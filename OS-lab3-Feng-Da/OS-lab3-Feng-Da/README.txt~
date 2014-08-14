@@ -1,0 +1,20 @@
+This lab is written in java, first packed into tar.gz file created by 7-Zip. But after a revise I put the useful folder into a Zip file. Other folders automatically created by IDE are removed now.
+
+File comment: one main function with the name Main.java. There will be hints about how inputting the file.
+
+
+Compilation and running: Get into the folder Banker, then type in the command: javac Main.java, after having compiled java Main then the program starts with informing "Program Starts!" with following input the file path.
+
+
+Directory hierarchy:root includes a folder named Banker in which all source code, input files and compiled classes are located. The root also includes a README file.
+
+
+A short description of each file:
+Two deadlock methods are listed as their name: Bank.java and Fifo.java.
+Task.java, class that defines the task class members, attributes and methods.
+BlockQueue.java is where the defination of the blocked queue locates.
+Main.java is the entrance of the program and where processing reading and the two methods.
+
+After read in the task file then system will initialize a task array and some necessary attributes of the two methods. The FIFO is processed first, after which all tasks will be reseted to unstarted states and then continue Bank algorithms.
+
+I have commented the main thought in the source code and all methods are with the same name as the algorithm shows.

@@ -1,0 +1,9 @@
+This lab is written in java which I have never used before, just wanna challenge myself. It was written by Eclipse which just need to construct a new project and add this file to the project. It includes only one class called linker.java which is the main function.
+
+Input: The program will inform you input the absolute path of the input file, includung the location of a file and the type, e.g: d:/Input9.txt in which the input is case 9 described in file"Input9.txt" located in the root path of disk D.
+
+Output:This program will print the final result directly, no need to print it in a file.
+
+I realized the function as described: two passed, one processing the uselist and defination table, printing error information under each conditions. The second pass then processing only one module according the first pass. It does not need to cost extra space because the space size is allocated by the size of program text.
+
+For all the 8 error conditions the program can be dected and printed out. I have tested for many time to make sure it can worked confronting any error and can print the warning and error codes. I am confident about getting full credits.
